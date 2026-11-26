@@ -4,7 +4,7 @@ import { FaInstagram, FaWhatsapp } from 'react-icons/fa6';
 import './Contact.css';
 
 const Contact = () => {
-  const mapLink = "https://maps.app.goo.gl/Byn3me3zN1MjkHMA9?g_st=aw";
+  const mapLink = "https://maps.app.goo.gl/gzpntKwn7NMMBgRF9?g_st=aw";
   const whatsappLink = "https://wa.me/919942890776";
   const phoneLink = "tel:+919942890776";
   const emailLink = "mailto:priyatamilarasan62@gmail.com";
