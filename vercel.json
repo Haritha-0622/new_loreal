@@ -1,5 +1,5 @@
 {
-  "name": "new-loreal-unisex-salon",
+  "name": "new-loreal",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "rewrites": [
