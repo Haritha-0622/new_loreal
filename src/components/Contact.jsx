@@ -8,6 +8,7 @@ const Contact = () => {
   const whatsappLink = "https://wa.me/919942890776";
   const phoneLink = "tel:+919942890776";
   const emailLink = "mailto:priyatamilarasan62@gmail.com";
+  const instagramLink = "https://www.instagram.com/new_loreal_professional_salon/";
 
   // State for interactive map view mode and zoom
   const [mapType, setMapType] = useState('m'); // 'm' for roadmap, 'k' for satellite
@@ -114,13 +115,13 @@ const Contact = () => {
 
             {/* Additional Quick Contact Grid */}
             <div className="quick-contact-strip">
-              <div className="strip-item">
+              <a href={instagramLink} target="_blank" rel="noreferrer" className="strip-item instagram-strip-item">
                 <FaInstagram size={20} className="instagram-icon" />
                 <div className="strip-text">
                   <span>Instagram</span>
-                  <strong>@loreal_unisex_salon</strong>
+                  <strong>@new_loreal_professional_salon</strong>
                 </div>
-              </div>
+              </a>
               <a href={phoneLink} className="strip-item phone-strip-item">
                 <Phone size={20} className="phone-icon" />
                 <div className="strip-text">

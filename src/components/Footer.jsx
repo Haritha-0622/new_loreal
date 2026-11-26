@@ -76,7 +76,9 @@ const Footer = () => {
                 <FaWhatsapp size={18} />
               </a>
               <a 
-                href="#" 
+                href="https://www.instagram.com/new_loreal_professional_salon/" 
+                target="_blank" 
+                rel="noreferrer"
                 aria-label="Instagram"
                 className="social-btn instagram-social"
               >
