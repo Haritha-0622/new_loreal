@@ -64,20 +64,20 @@ const Footer = () => {
                 <p>9:00 AM – 9:00 PM (Daily)</p>
               </div>
             </div>
-            
+
             <div className="footer-social-row">
-              <a 
-                href="https://wa.me/919942890776" 
-                target="_blank" 
-                rel="noreferrer" 
+              <a
+                href="https://wa.me/919942890776"
+                target="_blank"
+                rel="noreferrer"
                 aria-label="WhatsApp"
                 className="social-btn whatsapp-social"
               >
                 <FaWhatsapp size={18} />
               </a>
-              <a 
-                href="https://www.instagram.com/new_loreal_professional_salon/" 
-                target="_blank" 
+              <a
+                href="https://www.instagram.com/new_loreal_professional_salon/"
+                target="_blank"
                 rel="noreferrer"
                 aria-label="Instagram"
                 className="social-btn instagram-social"
